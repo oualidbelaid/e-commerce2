@@ -1,0 +1,33 @@
+/* product haver */
+.hover_pr {
+    position: absolute;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.hover_pr a {
+    margin-bottom: 5px;
+    transform: translateX(-55px);
+    transition: transform .3s;
+}
+
+.hover_pr a:nth-child(2) {
+    transition: .5s;
+}
+
+.hover_pr a:last-child {
+    transition: .7s;
+}
+
+.card:hover a {
+    transform: translateX(0px);
+}
+
+/* advance css */
+.avatar-sm .avatar-title {
+    background-color: cadetblue !important;
+}
+
+#carouselExampleCaptions {
+    max-height: 400px;
+}
